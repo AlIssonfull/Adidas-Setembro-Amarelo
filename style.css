@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -20,7 +21,6 @@ header{
         border-bottom: 2px solid black;
         display: flex;
         gap: 25px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 900;
         font-size: 13px;
 
@@ -50,6 +50,51 @@ header{
             border: 2px solid black;
             background: transparent;
             position: relative;
+        }
+    }
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 150px;
+
+        h2{
+            font-size: 25px;
+            color: #D79D0A;
+        }
+
+        h1{
+            font-size: 96px;
+            width: 100px;
+            span{
+                color: #D79D0A;
+            }
+        }
+
+        strong{
+            color: black;
+        }
+
+        p{
+            font-size: 20px;
+            width: 475px;
+            margin: 20px 0px 20px 0px;
+        }
+
+        button{
+            padding: 10px;
+            width: 150px;
+            background-color: #F5B20A;
+            border: none;
+            border-radius: 15px;
         }
     }
 }
