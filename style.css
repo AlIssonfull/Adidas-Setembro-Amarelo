@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #ECE5D0;
+}
+
+header{
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    nav{
+        padding: 12px;
+        border-bottom: 2px solid black;
+        display: flex;
+        gap: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        font-size: 13px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+
+        .span{
+            background-color: #F5B20A;
+            border-radius: 25px;
+        }
+
+        div{
+            display: flex;
+
+            img{
+                position: absolute;
+                left: 89.5%;
+                top: 7.5%;
+            }
+        }
+
+        input{
+            border-radius: 25px;
+            border: 2px solid black;
+            background: transparent;
+            position: relative;
+        }
+    }
+}
