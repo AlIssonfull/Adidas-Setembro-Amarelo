@@ -18,13 +18,13 @@ header {
     img {
         width: 100px;
         height: 100px;
-
     }
 
     a {
         text-decoration: none;
         color: white;
-        font-size: 30px;
+        font-size: 25px;
+        font-weight: 700;
     }
 }
 
